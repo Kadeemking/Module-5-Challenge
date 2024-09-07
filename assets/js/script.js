@@ -5,7 +5,7 @@ let nextId = JSON.parse(localStorage.getItem("nextId"));
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
     if(nextId){
-        nextId= nextId++
+        nextId = nextId + 1
     }else{
         nextId= 1
     }
@@ -133,7 +133,7 @@ function handleDeleteTask(event){
       taskList.splice(taskList.indexOf(task), 1);
     }
   });
-  
+
   localStorage.setItem("tasks", JSON.stringify(taskList));
 
   renderTaskList();
@@ -165,7 +165,7 @@ $(document).ready(function () {
         changeYear: true,
       });
 
-      $("#task-form").on("submit", handleAddTask)
+      $("#task-form").on("submit", handleAddTask )
 
       $('.lane').droppable({
         accept: '.draggable',
