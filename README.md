@@ -16,7 +16,7 @@ I created a taskboard with desire to have a site that can organize my tasks that
 
 <a href="https://kadeemking.github.io/Module-5-Challenge/">Live link</a>
 
-![alt text](assets/photos/screenshot5.png)
+![website screenshot](assets/photos/screenshot5.jpeg)
 
 ## Credits
 
