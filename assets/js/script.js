@@ -125,9 +125,7 @@ function handleAddTask(event) {
 // Todo: create a function to handle deleting a task
 function handleDeleteTask(event){
   const taskId = $(this).attr('data-taskid');
-  // const projects = readProjectsFromStorage();
 
-  // ? Remove project from the array. There is a method called `filter()` for this that is better suited which we will go over in a later activity. For now, we will use a `forEach()` loop to remove the project.
   taskList.forEach((task) => {
     if (task.id === parseInt(taskId)) {
       taskList.splice(taskList.indexOf(task), 1);
