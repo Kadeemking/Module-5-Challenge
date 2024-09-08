@@ -1,13 +1,8 @@
-# Third-Party APIs Challenge: Task Board
+# Task Board
 
 ## Description
 
-This week my task was to take a starter code of a task board website and use the skills i learned this past week to make the website add task and sort them by color based on the due dates of the task.
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I created a taskboard with desire to have a site that can organize my tasks that I add to the board. I built it because I wanted a site that not only addes task to a list but has the functionality to color code those tasks based on their deadlines, as well as being able to drag them to different columns as I complete each task. It solves the issue of not being able to keep track of the things i need to get done during the week. Because of this project I learned how to better utilize Jquery.
 
 ## Table of Contents
 
